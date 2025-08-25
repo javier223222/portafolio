@@ -1,8 +1,8 @@
 import './globals.css';
-import { Montserrat } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import Layout from '@/components/Layout';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const montserrat = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Javier Cundapi | Software Engineer',
