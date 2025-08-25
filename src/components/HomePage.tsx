@@ -19,7 +19,7 @@ import { Download, FolderOpen } from 'lucide-react';
 
 export default function HomePage() {
  return (
-  <section  className="scroll-mt-20 py-16 text-gray-100 max-w-[98%] sm:max-w-[97%] lg:max-w-[95%] mx-auto px-2 sm:px-4 lg:px-6 ">
+  <section id='home'  className="scroll-mt-20 py-16   text-gray-100 max-w-[98%] md:max-w-[97%] sm:max-w-[97%] lg:max-w-[95%] mx-auto px-2 sm:px-4 lg:px-6 ">
 
       <div className='flex flex-col mt-6 lg:mt-12 items-center justify-center gap-0  px-6'>
        <motion.div initial={{ scale: 0.8, opacity: 0 }}

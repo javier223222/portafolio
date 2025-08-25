@@ -39,7 +39,7 @@ export default function Skills() {
         </header>
 
         
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           
           
           <SkillCard icon={Server} classNames={"text-blue-400"} title="Backend" skills={skills} level={5} />
