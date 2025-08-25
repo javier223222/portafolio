@@ -13,7 +13,7 @@ export default function Work(){
                         Selected Work
                     </h1>
                     <span className="hidden md:block text-4xl lg:text-5xl font-light text-gray-400">
-                        '21-'25
+                        &apos;21-&apos;25
                     </span>
                 </div>
 

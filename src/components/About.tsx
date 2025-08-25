@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Award, ServerCog, Cloud, Zap, MapPin, Calendar, ExternalLink, Trophy, BookOpen } from 'lucide-react';
-import Image from 'next/image';
+import { ServerCog, Cloud, Zap, MapPin, Calendar, ExternalLink, Trophy, BookOpen } from 'lucide-react';
+
 
 const fadeIn = {
   hidden: { opacity: 0, y: 30 },
@@ -99,8 +99,8 @@ export default function About() {
                     Backend Developer with Architectural Vision
                   </h3>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    I'm Javier Cundapi, a software engineer passionate about building 
-                    <span className="font-semibold text-blue-600 dark:text-blue-400"> scalable, clean, and efficient APIs</span>. 
+                    I&apos;m Javier Cundapi, a software engineer passionate about building
+                    <span className="font-semibold text-blue-600 dark:text-blue-400"> scalable, clean, and efficient APIs</span>.
                     I work with <strong>Node.js, Go, Java, Spring Boot, and Laravel</strong>, applying clean architecture principles and best practices.
                   </p>
                 </div>
@@ -121,7 +121,7 @@ export default function About() {
                     Real-World Production Experience
                   </h3>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    I've worked on ERPs, authentication systems, educational platforms, and IoT solutions for energy monitoring, 
+                    I&apos;ve worked on ERPs, authentication systems, educational platforms, and IoT solutions for energy monitoring,
                     integrating technologies like <strong>Docker, WebSockets, JWT, PostgreSQL, and MongoDB</strong>.
                   </p>
                 </div>
@@ -163,7 +163,7 @@ export default function About() {
               className="grid grid-cols-2 gap-4"
               variants={fadeIn}
             >
-              {stats.map((stat, index) => {
+              {stats.map((stat) => {
                 const IconComponent = stat.icon;
                 return (
                   <motion.div
@@ -250,7 +250,7 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* Call to Action */}
+       
         <motion.div
           className="mt-16 text-center"
          
@@ -260,10 +260,10 @@ export default function About() {
           variants={fadeIn}
         >
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-3">Let's Build Something Amazing Together</h3>
+            <h3 className="text-2xl font-bold mb-3">Let&apos;s Build Something Amazing Together</h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              I'm always excited to work on innovative projects and collaborate with passionate teams. 
-              Let's discuss how we can bring your ideas to life.
+              I&apos;m always excited to work on innovative projects and collaborate with passionate teams.
+              Let&apos;s discuss how we can bring your ideas to life.
             </p>
             <motion.a
               href={"mailto:upconectionupconection@gmail.com"}

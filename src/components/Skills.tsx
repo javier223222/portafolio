@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Server, Database, Boxes } from 'lucide-react';
 import Chip from './Chip';
-import LevelDots from './LevelDots';
+
 import SkillCard from './SkillCard';
 import { skills } from '@/utils/data';
 const fade = {

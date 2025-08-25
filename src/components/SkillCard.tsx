@@ -7,7 +7,7 @@ const fade = {
   show: { opacity: 1, y: 0, transition: { duration: 0.45 } },
 };
 
-export default function SkillCard({icon: Icon, title,classNames,skills,level }: {icon: React.ComponentType<any>; title: string;classNames?: string;skills: skill[]; level: number}) {
+export default function SkillCard({icon: Icon, title,classNames,skills,level }: {icon: React.ComponentType<React.SVGProps<SVGSVGElement>>; title: string;classNames?: string;skills: skill[]; level: number}) {
   return (
     <motion.article
             className="rounded-2xl p-5 border border-white/10 bg-white/5 backdrop-blur hover:border-white/20 transition"
