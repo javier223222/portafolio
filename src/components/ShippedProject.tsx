@@ -6,13 +6,13 @@ export default function ShippedProject({pathImage,alt,name,description}:{pathIma
   return(
      <div className="group cursor-pointer">
                            
-                                <div className="relative h-[250px] sm:h-[300px] lg:h-[400px] overflow-hidden rounded-2xl transition-transform duration-700 group-hover:scale-105">
+                                <div className="relative h-[250px] sm:h-[300px] lg:h-[400px] overflow-hidden rounded-2xl transition-transform duration-700 md:group-hover:scale-105 lg:group-hover:scale-105">
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent z-10">   
                                         <Image
                                         src={pathImage}
                                         alt={alt}
                                         fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                        className="object-cover transition-transform duration-700 "
                                         priority
                                         />
     

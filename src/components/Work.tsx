@@ -34,8 +34,7 @@ export default function Work() {
           }
         >
 
-          <div className="absolute inset-0 transform-gpu will-change-transform transition-transform duration-700 group-hover:scale-[1.04]">
-           
+          <div className="absolute inset-0 transform-gpu will-change-transform transition-transform duration-700 md:group-hover:scale-[1.04] lg:group-hover:scale-[1.04]">
             <Image
               src="/monogatari.webp"
               alt="Monogatari Manga Platform"
