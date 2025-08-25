@@ -6,7 +6,7 @@ const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Javier Cundapi | Software Engineer',
-  description: 'Desarrollador Backend con experiencia en Java, APIs y más.',
+  description: 'Software Engineer with experience in Java, APIs and more.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
