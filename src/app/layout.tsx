@@ -5,7 +5,7 @@ import Layout from '@/components/Layout';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Javier Cundapi|Desarrollador Backend',
+  title: 'Javier Cundapi | Software Engineer',
   description: 'Desarrollador Backend con experiencia en Java, APIs y más.',
 };
 
